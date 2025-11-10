@@ -33,7 +33,8 @@
                 <label for="image">Upload de foto</label>
                 <input type="file" id="image" name="userImage" accept="image/*">
             </fieldset>
-
+            
+            <!--Perfil-->
             <fieldset>
                 <legend>Perfil</legend>
 
@@ -108,6 +109,17 @@
                 <br>
                 <input type="checkbox" id="x" name="social" value="x">
                 <label for="x">X</label>
+                <br>
+
+                <label for="musicStyle">Estilo Musical:</label>
+                <input type="text" id="musicStyle" name="userMusicStyle" list="styleTypes">
+                <datalist id="styleTypes">
+                    <option value="Rock">
+                    <option value="Pop">
+                    <option value="Samba">
+                    <option value="Sertanejo">
+                </datalist>
+
             </fieldset>
 
             <button type="submit">Enviar</button>
