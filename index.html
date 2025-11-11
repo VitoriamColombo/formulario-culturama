@@ -8,16 +8,16 @@
     <link rel="shortcut icon" href="culturama-favico.png" type="image/x-icon">
 </head>
 <body>
-    <main>
-    <header>
-        <img src="imagens/logo-culturama.png" alt="logo culturama">
-        <h1 class="titulo-principal">Pesquisa Online</h1>
+    <main class="container">
+    <header class="cabecalho">
+        <img class="cabecalho-imagem" src="imagens/logo-culturama.png" alt="logo culturama">
+        <h1 class="cabecalho-titulo">Pesquisa Online</h1>
     </header>
     <section>
-        <form action="" method="get">
+        <form class="formulario" action="" method="get">
             <!--Dados Pessoais-->
-            <fieldset>
-                <legend>Dados Pessoais</legend>
+            <fieldset class="formulario-grupo">
+                <legend class="formulario-legenda">Dados Pessoais</legend>
                 <label for="name">Nome:</label>
                 <input type="text" id="name" name="userName" required>
                 <br>
@@ -38,8 +38,8 @@
             </fieldset>
 
             <!--Perfil-->
-            <fieldset>
-                <legend>Perfil</legend>
+            <fieldset class="formulario-grupo">
+                <legend class="formulario-legenda">Perfil</legend>
 
                 <p>Gênero:</p>
                 <input type="radio" id="femenino" name="userGender" value="femenino">
@@ -97,8 +97,8 @@
             </fieldset>
 
             <!--Hábitos-->
-            <fieldset>
-                <legend>Hábitos</legend>
+            <fieldset class="formulario-grupo">
+                <legend class="formulario-legenda">Hábitos</legend>
                 <p>Redes Sociais:</p>
 
                 <input type="checkbox" id="instagram" name="social" value="instagram">
@@ -129,8 +129,8 @@
             </fieldset>
             
             <!--Opinião-->
-            <fieldset>
-                <legend>Opinião</legend>
+            <fieldset class="formulario-grupo">
+                <legend class="formulario-legenda">Opinião</legend>
                 <p>O que você acha da qualidade do nosso serviço?</p>
                 <input type="radio" id="otimo" name="userServiceOpinion" value="otimo">
                 <label for="otimo">Ótima</label>
@@ -150,8 +150,8 @@
             </fieldset>
 
             <!--Confirmações-->
-            <fieldset>
-                <legend>Confirmações</legend>
+            <fieldset class="formulario-grupo">
+                <legend class="formulario-legenda">Confirmações</legend>
                 <input type="checkbox" id="userLgpdTerm" name="userLgpd" value="accepted" required>
                 <label for="userLgpdTerm">Eu aceito participar da pesquisa</label>
                 <br>
