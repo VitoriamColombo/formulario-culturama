@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Work+Sans&display=swap');
 
+:root{
+    --cor-primaria: #a6a89f;
+    --cor-secundaria:  #f4f0ea;
+    --cor-submit-valid: #188c39;
+    --cor-reset-invalid: #d83803;
+    --branco: #ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body{
     font-family: "Work Sans", sans-serif;
@@ -7,7 +20,108 @@ body{
     background-color: var(--cor-primaria);
 }
 
-.titulo-principal{
+.cabecalho{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cabecalho-imagem{
+    width: 100px;
+}
+
+.cabecalho-titulo{
     font-family: "Fjalla One", sans-serif;
     font-weight: 400;
+    color: var(--cor-secundaria);
+}
+
+.container{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.formulario{
+    background-color: var(--cor-secundaria);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.formulario-grupo{
+    padding: 15px;
+    border: 2px solid var(--cor-primaria);
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.formulario-legenda{
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--cor-primaria); 
+    padding: 0 5px;
+}
+
+.formulario-texto{
+    margin-bottom: 15px;
+}
+
+input, select, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid var(--cor-primaria);
+    border-radius: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+    width: auto;
+}
+
+input[type="color"]{
+    width: 40px;
+    padding: 0 5px;
+}
+
+input:required:invalid,
+select:required:invalid,
+textarea:required:invalid{
+    border-color: var(--cor-reset-invalid);
+}
+
+input:required:valid,
+select:required:valid,
+textarea:required:valid{
+    border-color: var(--cor-submit-valid);
+}
+
+label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.formulario-textarea{
+    min-height: 100px;
+}
+
+.formulario-botao{
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    border: 2px solid var(--cor-primaria);
+    border-radius: 5px;
+    background-color: var(--branco);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.formulario-botao[type="submit"]:hover{
+    background-color: var(--cor-submit-valid);
+    color: var(--branco);
+}
+
+.formulario-botao[type="reset"]:hover{
+    background-color: var(--cor-reset-invalid);
+    color: var(--branco);
 }
