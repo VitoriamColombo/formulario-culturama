@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Work+Sans&display=swap');
 
 :root{
-    --cor-primaria: #726864;
-    --cor-secundaria:  #f4f0EA;
+    --cor-primaria: #a6a89f;
+    --cor-secundaria:  #f4f0ea;
+    --cor-submit-valid: #188c39;
+    --cor-reset-invalid: #d83803;
+    --branco: #ffffff;
 }
 
 *{
@@ -15,12 +18,6 @@ body{
     font-family: "Work Sans", sans-serif;
     font-weight: 400;
     background-color: var(--cor-primaria);
-}
-
-.container{
-    width: 100%;
-    max-width: 700px;
-    margin: 0 auto;
 }
 
 .cabecalho{
@@ -38,10 +35,17 @@ body{
     color: var(--cor-secundaria);
 }
 
+.container{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
 .formulario{
     background-color: var(--cor-secundaria);
     padding: 15px;
     border-radius: 10px;
+    margin-bottom: 100px;
 }
 
 .formulario-grupo{
@@ -56,6 +60,10 @@ body{
     font-size: 16px;
     color: var(--cor-primaria); 
     padding: 0 5px;
+}
+
+.formulario-texto{
+    margin-bottom: 15px;
 }
 
 input, select, textarea{
@@ -76,6 +84,18 @@ input[type="color"]{
     padding: 0 5px;
 }
 
+input:required:invalid,
+select:required:invalid,
+textarea:required:invalid{
+    border-color: var(--cor-reset-invalid);
+}
+
+input:required:valid,
+select:required:valid,
+textarea:required:valid{
+    border-color: var(--cor-submit-valid);
+}
+
 label{
     display: inline-block;
     margin-bottom: 5px;
@@ -85,4 +105,23 @@ label{
     min-height: 100px;
 }
 
+.formulario-botao{
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    border: 2px solid var(--cor-primaria);
+    border-radius: 5px;
+    background-color: var(--branco);
+    font-size: 15px;
+    cursor: pointer;
+}
 
+.formulario-botao[type="submit"]:hover{
+    background-color: var(--cor-submit-valid);
+    color: var(--branco);
+}
+
+.formulario-botao[type="reset"]:hover{
+    background-color: var(--cor-reset-invalid);
+    color: var(--branco);
+}
