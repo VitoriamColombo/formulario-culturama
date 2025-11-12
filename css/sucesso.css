@@ -1,0 +1,18 @@
+:root{
+    --cor-de-fundo: #f4f0ea;
+    --cor-de-titulo: #2e8b57;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--cor-de-fundo);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: var(--cor-de-titulo);
+    font-size: 2em;
+}
