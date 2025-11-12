@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Work+Sans&display=swap');
 
 :root{
-    --cor-primaria: #a6a89f;
-    --cor-secundaria:  #f4f0ea;
+    --cor-primaria: #dadada;
+    --cor-secundaria:  #453d32;
     --cor-submit-valid: #2e8b57;
     --cor-reset-invalid: #d83803;
     --branco: #ffffff;
@@ -42,7 +42,7 @@ body{
 }
 
 .formulario{
-    background-color: var(--cor-secundaria);
+    background-color: var(--branco);
     padding: 15px;
     border-radius: 10px;
     margin-bottom: 100px;
@@ -58,7 +58,7 @@ body{
 .formulario-legenda{
     font-weight: 700;
     font-size: 16px;
-    color: var(--cor-primaria); 
+    color: var(--cor-secundaria); 
     padding: 0 5px;
 }
 
