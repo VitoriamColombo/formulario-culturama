@@ -2,9 +2,8 @@
 
 ## ✨ Sobre o Projeto  
 
-Projeto desenvolvido durante o curso de **HTML e CSS** da Alura, com o objetivo de criar um **formulário de pesquisa online para a empresa fictícia Culturama**.  
-
-Além do conteúdo técnico, este projeto representou um passo importante no uso do **Git e GitHub**, aplicando um fluxo de versionamento inspirado no **ambiente profissional de desenvolvimento**.  
+### Este projeto foi desenvolvido para praticar HTML e CSS, criar um formulário de pesquisa online e aprimorar meu uso de Git e GitHub seguindo um fluxo de versionamento mais profissional.
+Além da parte técnica, este projeto representou um passo importante na minha organização de código e na forma de trabalhar com branches e commits bem estruturados.
 
 > 💡 Foi o primeiro projeto em que segui uma estrutura real de trabalho, evitando alterações diretas na `main`, utilizando **branches específicas** e mantendo um **histórico de commits limpo e organizado**.
 
@@ -75,6 +74,9 @@ Formulário completo, organizado e responsivo, com **boas práticas de acessibil
 
 🔗 **Acesse o projeto publicado:**  
 👉 [vitoriamcolombo.github.io/formulario-culturama](https://vitoriamcolombo.github.io/formulario-culturama/)
+
+
+📚 **Observação:** projeto desenvolvido durante minha evolução no Front-End, com ajustes contínuos de boas práticas.
 
 ---
 
