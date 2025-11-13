@@ -82,7 +82,7 @@ Formulário completo, organizado e responsivo, com **boas práticas de acessibil
 
 <div align="center">
 
-Feito com 💖 por **[Vi Colombo](https://github.com/VitoriamColombo)**  
+Feito com 💖 por **[Vi](https://github.com/VitoriamColombo)**  
 📚 *Aprendizado contínuo — um commit de cada vez!*
 
 </div>
