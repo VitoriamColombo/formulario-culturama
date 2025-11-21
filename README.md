@@ -2,8 +2,7 @@
 
 ## ✨ Sobre o Projeto  
 
-### Este projeto foi desenvolvido para praticar HTML e CSS, criar um formulário de pesquisa online e aprimorar meu uso de Git e GitHub seguindo um fluxo de versionamento mais profissional.
-Além da parte técnica, este projeto representou um passo importante na minha organização de código e na forma de trabalhar com branches e commits bem estruturados.
+### Neste projeto desenvolvi um formulário de pesquisa online e aprimorei o uso de Git e GitHub seguindo um fluxo de versionamento mais profissional.
 
 > 💡 Foi o primeiro projeto em que segui uma estrutura real de trabalho, evitando alterações diretas na `main`, utilizando **branches específicas** e mantendo um **histórico de commits limpo e organizado**.
 
@@ -11,7 +10,7 @@ Além da parte técnica, este projeto representou um passo importante na minha o
 
 ## 📋 Requisitos do Projeto  
 
-Formulário de pesquisa de opinião criado com **HTML5** e **CSS3**, sem uso de JavaScript.  
+Formulário de pesquisa de opinião criado somente com **HTML5** e **CSS3**, sem uso de JavaScript.  
 O formulário deveria ser **simples, funcional e responsivo**.  
 
 ### 🔹 Campos Principais  
