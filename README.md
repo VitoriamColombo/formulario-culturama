@@ -10,7 +10,7 @@
 
 ## 📋 Requisitos do Projeto  
 
-Formulário de pesquisa de opinião criado somente com **HTML5** e **CSS3**, sem uso de JavaScript.  
+Formulário de pesquisa de opinião criado com **HTML5** e **CSS3**, sem uso de JavaScript.  
 O formulário deveria ser **simples, funcional e responsivo**.  
 
 ### 🔹 Campos Principais  
