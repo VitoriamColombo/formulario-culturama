@@ -1,8 +1,8 @@
-# 📝 Formulário Culturama  
+## 📝 Formulário Culturama  
 
-## ✨ Sobre o Projeto  
+### ✨ Sobre o Projeto:  
 
-### Neste projeto desenvolvi um formulário de pesquisa online e aprimorei o uso de Git e GitHub seguindo um fluxo de versionamento mais profissional.
+*Neste projeto desenvolvi um formulário de pesquisa online e aprimorei o uso de Git e GitHub seguindo um fluxo de versionamento mais profissional.*
 
 > 💡 Foi o primeiro projeto em que segui uma estrutura real de trabalho, evitando alterações diretas na `main`, utilizando **branches específicas** e mantendo um **histórico de commits limpo e organizado**.
 
@@ -61,13 +61,13 @@ Apliquei o uso correto de **inputs, labels e fieldsets**, garantindo clareza, ac
 
 ---
 
-## 💻 Tecnologias e 🛠️ Ferramentas Utilizadas  
+### 💻 Tecnologias e 🛠️ Ferramentas Utilizadas  
 
 `Git` · `GitHub` · `HTML5` · `CSS3` · `Visual Studio Code` · 
 
 ---
 
-## 🌟 Resultado Final  
+### 🌟 Resultado Final  
 
 Formulário completo, organizado e responsivo, com **boas práticas de acessibilidade e versionamento** aplicadas.  
 
