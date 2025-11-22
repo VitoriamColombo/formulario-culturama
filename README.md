@@ -75,13 +75,14 @@ Formulário completo, organizado e responsivo, com **boas práticas de acessibil
 👉 [vitoriamcolombo.github.io/formulario-culturama](https://vitoriamcolombo.github.io/formulario-culturama/)
 
 
-📚 **Observação:** projeto desenvolvido durante minha evolução no Front-End, com ajustes contínuos de boas práticas.
+📚 *Projeto desenvolvido durante minha evolução no Front-End, com ajustes contínuos de boas práticas.*
 
 ---
 
 <div align="center">
+  
+*Aprendizado contínuo — um commit de cada vez!*
 
 Feito com 💖 por **[Vi](https://github.com/VitoriamColombo)**  
-📚 *Aprendizado contínuo — um commit de cada vez!*
 
 </div>
