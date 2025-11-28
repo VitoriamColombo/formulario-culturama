@@ -75,7 +75,6 @@ Formulário completo, organizado e responsivo, com **boas práticas de acessibil
 👉<a href="https://vitoriamcolombo.github.io/formulario-culturama/" target="_blank" rel="noopener noreferrer">Ver site online</a>
 
 
-
 📚 *Projeto desenvolvido durante minha evolução no Front-End, com ajustes contínuos de boas práticas.*
 
 ---
