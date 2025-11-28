@@ -71,8 +71,9 @@ Apliquei o uso correto de **inputs, labels e fieldsets**, garantindo clareza, ac
 
 Formulário completo, organizado e responsivo, com **boas práticas de acessibilidade e versionamento** aplicadas.  
 
-🔗 **Acesse o projeto publicado:**  
-👉 [vitoriamcolombo.github.io/formulario-culturama](https://vitoriamcolombo.github.io/formulario-culturama/)
+### 🔗 **Acesse o projeto publicado:**  
+👉<a href="https://vitoriamcolombo.github.io/formulario-culturama/" target="_blank" rel="noopener noreferrer">Ver site online</a>
+
 
 
 📚 *Projeto desenvolvido durante minha evolução no Front-End, com ajustes contínuos de boas práticas.*
